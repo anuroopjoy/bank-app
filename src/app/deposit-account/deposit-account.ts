@@ -9,5 +9,7 @@ export class DepositAccount extends BankAccount {
     return this.interestCalculator.calculateInterest(8, this.amount);
   }
 
-  #checkForFine() {}
+  #checkForFine() {
+    // Some logic
+  }
 }
